@@ -16,6 +16,8 @@ containers:
       Hello: World
 
 resources:
+  redis:
+    name: my_redis
   dns: # We need a DNS record to point to the service 
     type: dns
   route:
